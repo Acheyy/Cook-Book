@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+<body>
+<header class="header">
+    <h2 class="header_logo">
+        <i class="fas fa-utensils"></i> iQuest Cook Book
+    </h2>
+    <nav>
+        <table class="bottom_header">
+            <tr>
+                <td class="navigation">
+                    <div>
+                        <i class="fas fa-plus"></i> <span class="new_recipe"> New recipe</span>
+                    </div>
+                </td>
+                <td class="navigation2">
+                    <label class="drop">
+                        <select class="nav_select" name="text">
+                            <option value="option1">Scambled egg omlette</option>
+                            <option value="option2" selected>Select a recipe...</option>
+                        </select>
+
+                    </label>
+                </td>
+
+            </tr>
+        </table>
+    </nav>
+</header>
+
+<main>
+    <section class="about">
+
+        <h3><i class="fas fa-info"></i><span class="about2"> About</span></h3>
+
+        <form action="">
+            <div class="recipe_title">
+                <label class="recipe_title3" for="title">Recipe title</label>
+                <input class="recipe_title2" type="text" id="title" placeholder="Title">
+            </div>
+            <div class="descr">
+                <label class="descr4" for="descr">Description</label>
+            </div>
+            <div class="descr2">
+
+                <textarea class="about_recipe" name="descr" id="descr" cols="30" rows="10" placeholder="About the recipe"></textarea>
+            </div>
+
+            <div>
+                <div class="portions2">
+                    <div class="option1">
+                        <span class="portions">Portions</span>
+                        <label class="drop">
+                            <select class="por" id="aa">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="1">6</option>
+                                <option value="2">7</option>
+                                <option value="4">9</option>
+                                <option value="3">9</option>
+                                <option value="5">10</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="option2">
+                        <span class="time">Time(mins)</span>
+                        <label class="drop">
+                            <select class="por" id="aa2">
+                                <option value="1">5</option>
+                                <option value="2">10</option>
+                                <option value="3">15</option>
+                                <option value="4">20</option>
+                                <option value="5">30</option>
+                                <option value="5">45</option>
+                                <option value="5">60</option>
+                                <option value="5">90</option>
+                                <option value="5">120</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="option3">
+                        <span class="dificulty">Dificulty</span>
+                        <label class="drop">
+                            <select class="por2" id="aa3">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </label>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </form>
+
+
+    </section>
+
+    <section class="ingredients">
+        <h3><i class="fas fa-th-list"></i><span> Ingredients</span></h3>
+
+        <ul>
+            <li><i class="fas fa-angle-double-right"></i>  300 g brown rice</li>
+            <li><i class="fas fa-angle-double-right"></i>  2 pc red onions</li>
+            <li><i class="fas fa-angle-double-right"></i>  1 pc fresh red chilli</li>
+            <li><i class="fas fa-angle-double-right"></i>  25 g unsalted butter</li>
+            <li><i class="fas fa-angle-double-right"></i>  6 pc large free-range eggs</li>
+        </ul>
+
+        <div class="qty">
+            <input class="qty2" type="text" id="Qty." placeholder="Qty.">
+
+            <select class="unit" title="unit" id="unit">
+                <option value="1">Unit</option>
+                <option value="2">g</option>
+                <option value="3">Kg</option>
+                <option value="4">pc</option>
+                <option value="5">ml</option>
+                <option value="5">l</option>
+                <option value="5">tea spoon(s)</option>
+
+            </select>
+
+            <span>of</span>
+
+            <input class="qty3" type="text" id="Ingredient" placeholder="Ingredient">
+            <button class="add" type="submit"><i class="fas fa-plus-square"></i></button>
+
+        </div>
+
+    </section>
+
+    <section class="step">
+        <h3><i class="fas fa-list-ol"></i><span> Steps</span> </h3>
+        <div class="recipe">
+            <ol>
+                <li>Cook the rice in a pan of boiling salted water according to the packet instructions, then drain and refresh under cold water, leaving it in the colander.</li>
+                <li>At the same time, poach the fish in a large pan of simmering salted water on a medium heat for 10 minutes, then carefully remove with a slotted spoon. Turn the heat up under the poaching water and bring back to a good simmer</li>
+                <li>Meanwhile, peel the onions and finely slice with the red chilli (deseed if you like) and coriander stalks. Peel and finely chop the garlic and ginger, place it all in a large frying pan on a medium heat with 1 tablespoon of oil and the butter, and cook for 10 minutes, or until soft but not coloured, stirring occasionally</li>
+            </ol>
+        </div>
+        <form class="step2">
+            <div class="descr">
+                <label class="step2" for="step">Step</label>
+            </div>
+            <div class="descr">
+
+                <textarea class="about_recipe2" name="step" id="step" cols="30" rows="10" placeholder="Step description"></textarea>
+            </div>
+        </form>
+        <div class="add_step">
+            <button class="add_step">
+                <i class="fas fa-plus-square"></i> <span>Add step</span></button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <table class="footer_nav">
+            <tr>
+                <td class="nav1">
+                    <button class="cancel"><i class="far fa-trash-alt"></i><span class="cancel"> Cancel</span></button>
+                </td>
+                <td class="nav2">
+                    <button class="save"><i class="far fa-save"></i><span class="save2"> Save recipe</span></button>
+                </td>
+
+            </tr>
+        </table>
+    </footer>
+</main>
+</body>
+</html>

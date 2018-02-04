@@ -1,0 +1,611 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9f9f9;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+header .header_logo {
+    background-color: #d94e44;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+header h2 {
+    line-height: 1;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.bottom_header {
+    width: 100%;
+    background-color: white;
+}
+
+.navigation{
+    width: 50%;
+    text-align: center;
+    color: #d94e44;
+    padding: 10px 0;
+    border-bottom: 1px solid #d6d4d4;
+    cursor: pointer;
+}
+
+.navigation input {
+    width: 100px;
+    margin: 0;
+}
+
+.navigation2 {
+    width: 50%;
+    text-align: center;
+    color: #d94e44;
+    padding: 10px 0;
+    border-bottom: 1px solid #d6d4d4;
+    line-height: 40px;
+    border-left: 1px solid #d6d4d4;
+
+}
+
+select.nav_select{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    border-color: #F9F5F5;
+    color: #393939;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+option{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+section h3 {
+    font-weight: 600;
+    color: #fff;
+    padding: 7px;
+    background-color: #db4d3f;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.portions {
+    color: #393939;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+}
+
+.time {
+    color: #393939;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+}
+
+.dificulty {
+    color: #393939;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+}
+
+input.recipe_title2 {
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: 10px 10px 10px 15px;
+}
+
+.descr {
+    margin: 0 auto;
+    margin-top: 10px;
+    color: #393939;
+    font-weight: 600;
+}
+
+.descr2 {
+    margin: 0 auto;
+    color: #393939;
+    font-weight: 600;
+}
+
+form div {
+    margin-top: 15px;
+}
+
+div.recipe {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 40px;
+}
+
+div.portions2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+ol {
+    padding-left: 25px;
+}
+
+form.step2 {
+    margin-top: 40px;
+}
+
+input.qty2 {
+    padding: 5px 5px 5px 10px;
+    width: 75px;
+    min-width: 55px;
+    margin-right: 10px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+}
+
+input.qty3 {
+    padding: 5px 5px 5px 10px;
+    width: 400px;
+    margin-right: 10px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+}
+
+ol li {
+    margin-top: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #393939;
+}
+
+input.recipe_title2 {
+    margin-top: 10px;
+}
+
+.fa-info, .fa-th-list, .fa-list-ol {
+    padding-left: 10px;
+
+}
+
+div.add_step {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+textarea.about_recipe {
+    margin-top: 10px;
+    box-sizing: border-box;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+textarea.about_recipe2 {
+    box-sizing: border-box;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.footer_nav {
+    width: 100%;
+}
+
+.footer_section {
+    width: 50%;
+    color: #d94e44;
+}
+
+.add_step i {
+    font-size: 16px;
+}
+
+button i{
+    font-size: 14px;
+}
+
+div.descr {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+div.recipe_title {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.add_step span {
+    font-weight: 600;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+div.portions2 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+span.new_recipe{
+    font-weight: 600;
+}
+
+div.qty {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px 0 25px;
+}
+
+ul {
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 25px;
+    padding-left: 40px;
+    list-style-type: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+ul li {
+    color: #393939;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding-bottom: 5px;
+}
+
+button.add_step, button.cancel {
+    color: #db4d3f;
+    border: 1px solid #db4d3f;
+    border-radius: 2px;
+    background-color: white;
+    margin-top: 5px;
+    padding: 10px 0 10px 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+select.por,select.por2{
+    border-radius: 3px;
+    padding: 5px 2px 5px 2px;
+    border-color: #F9F5F5;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+select.unit {
+    padding: 5px 2px 5px 2px;
+    border-color: #F9F5F5;
+    width: 125px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+select.por{
+    width: 50px;
+    margin-right: 10px;
+}
+
+select.por2{
+    width: 50px;
+}
+
+.save {
+    background-color: #db4d3f;
+    color: white;
+    border: 1px solid #db4d3f;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 10px 0 10px 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+.fa-angle-double-right {
+    color: #db4d3f;
+}
+
+button.add {
+    color: #db4d3f;
+    border: 1px solid #db4d3f;
+    border-radius: 2px;
+    background-color: white;
+    padding: 5px 7px 5px 7px;
+    cursor: pointer;
+}
+
+div.qty span {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.nav1 {
+    width: 50%;
+    text-align: center;
+    color: #d94e44;
+    padding: 0;
+    cursor: pointer;
+}
+
+.nav2 {
+    width: 50%;
+    text-align: center;
+    color: #d94e44;
+    padding: 0;
+    cursor: pointer;
+}
+
+footer {
+    padding-bottom: 85px;
+    width: 100%;
+}
+
+button.add_step {
+    color: #db4d3f;
+    border: 1px solid #db4d3f;
+    border-radius: 2px;
+    background-color: white;
+    margin-top: 5px;
+    padding: 10px 0 10px 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+.recipe_title {
+    padding-bottom: 10px;
+    color: #3D3B3B;
+    font-weight: 600;
+}
+
+label.step2 {
+    color: #393939;
+    font-weight: 600;
+}
+
+label.descr4 {
+    color: #393939;
+    font-weight: 600;
+}
+
+label.recipe_title3 {
+    color: #393939;
+    font-weight: 600;
+}
+
+.ingredients h3 {
+    color: #fff;
+    padding: 7px;
+    font-weight: 600;
+    background-color: #db4d3f;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+section.ingredients{
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    background-color: #f6f4f4;
+}
+
+section.about{
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    background-color: #f6f4f4;
+
+}
+
+.step h3 {
+    color: #fff;
+    padding: 7px;
+    font-weight: 600;
+    background-color: #db4d3f;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+section.step {
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    background-color: #f6f4f4;
+}
+
+form input {
+    width: 100%;
+}
+
+form textarea {
+    width: 100%;
+}
+
+input {
+    border: 0 none;
+}
+
+textarea, input {
+    border-color: #F9F5F5;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+form {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.footer_nav {
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+span.cancel{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+span.save2{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+}
+
+@media screen and (min-width: 250px) and (max-width: 499px){
+    ul{
+        margin-right: 5px;
+        padding-left: 20px;
+    }
+    div.qty span {
+        display: none;
+    }
+
+    form {
+        padding-left: 0;
+        padding-right: 0px;
+    }
+    div.recipe {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 40px;
+    }
+    div.add_step {
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    input.qty3 {
+        padding: 5px 5px 5px 10px;
+        min-width: 100px;
+        width: 400px;
+    }
+
+
+    div.qty {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 0px 0 0px;
+    }
+    select.unit {
+        padding: 5px 2px 5px 2px;
+        min-width: 55px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 699px){
+
+    ul{
+        margin-left: 25px;
+    }
+    main{
+        max-width: 95%;
+    }
+    form {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    div.recipe {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 40px;
+    }
+    div.add_step {
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    input.qty3 {
+        padding: 5px 5px 5px 10px;
+        width: 400px;
+    }
+    div.qty {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 15px 0 15px;
+    }
+    select.unit {
+        padding: 5px 2px 5px 2px;
+        max-width: 90px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px){
+    ul{
+        padding-left: 40px;
+    }
+    main{
+        max-width: 90%;
+    }
+    form {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    div.recipe {
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 40px;
+    }
+    div.add_step {
+        margin-top: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    input.qty3 {
+        padding: 5px 5px 5px 10px;
+        width: 400px;
+    }
+    input.qty3 {
+        margin-right: 10px;
+    }
+    select.unit {
+        padding: 5px 2px 5px 2px;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px){
+    ul{
+        padding-left: 40px;
+    }
+    main{
+        max-width: 85%;
+    }
+    form {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    div.recipe {
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 40px;
+    }
+    div.add_step {
+        margin-top: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    input.qty3 {
+        padding: 5px 5px 5px 10px;
+        width: 400px;
+    }
+    input.qty3 {
+        margin-right: 10px;
+    }
+    select.unit {
+        padding: 5px 2px 5px 2px;
+    }
+}
