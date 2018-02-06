@@ -84,21 +84,7 @@ section h3 {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
-.portions {
-    color: #393939;
-    font-weight: 600;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-
-}
-
-.time {
-    color: #393939;
-    font-weight: 600;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-
-}
-
-.dificulty {
+.portions,.dificulty,.time {
     color: #393939;
     font-weight: 600;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -112,13 +98,10 @@ input.recipe_title2 {
 }
 
 .descr {
-    margin: 0 auto;
     margin-top: 10px;
-    color: #393939;
-    font-weight: 600;
 }
 
-.descr2 {
+.descr2,.descr  {
     margin: 0 auto;
     color: #393939;
     font-weight: 600;
@@ -194,12 +177,9 @@ table {
 
 textarea.about_recipe {
     margin-top: 10px;
-    box-sizing: border-box;
-    font-weight: 600;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
-textarea.about_recipe2 {
+textarea.about_recipe,textarea.about_recipe2 {
     box-sizing: border-box;
     font-weight: 600;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -220,24 +200,6 @@ textarea.about_recipe2 {
 
 button i{
     font-size: 14px;
-}
-
-div.descr {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-}
-
-div.recipe_title {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-}
-
-.add_step span {
-    font-weight: 600;
-    font-size: 16px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-}
-
-div.portions2 {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 span.new_recipe{
@@ -268,7 +230,7 @@ ul li {
 button.add_step, button.cancel {
     color: #db4d3f;
     border: 1px solid #db4d3f;
-    border-radius: 2px;
+    border-radius: 3px;
     background-color: white;
     margin-top: 5px;
     padding: 10px 0 10px 0;
@@ -308,7 +270,7 @@ select.por2{
     background-color: #db4d3f;
     color: white;
     border: 1px solid #db4d3f;
-    border-radius: 2px;
+    border-radius: 3px;
     margin-top: 5px;
     padding: 10px 0 10px 0;
     width: 100%;
@@ -322,7 +284,7 @@ select.por2{
 button.add {
     color: #db4d3f;
     border: 1px solid #db4d3f;
-    border-radius: 2px;
+    border-radius: 3px;
     background-color: white;
     padding: 5px 7px 5px 7px;
     cursor: pointer;
@@ -361,7 +323,7 @@ footer {
 button.add_step {
     color: #db4d3f;
     border: 1px solid #db4d3f;
-    border-radius: 2px;
+    border-radius: 3px;
     background-color: white;
     margin-top: 5px;
     padding: 10px 0 10px 0;
@@ -375,22 +337,12 @@ button.add_step {
     font-weight: 600;
 }
 
-label.step2 {
+label.step2,label.descr4,label.recipe_title3 {
     color: #393939;
     font-weight: 600;
 }
 
-label.descr4 {
-    color: #393939;
-    font-weight: 600;
-}
-
-label.recipe_title3 {
-    color: #393939;
-    font-weight: 600;
-}
-
-.ingredients h3 {
+.ingredients h3,.step h3 {
     color: #fff;
     padding: 7px;
     font-weight: 600;
@@ -398,25 +350,10 @@ label.recipe_title3 {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
-section.ingredients{
+section.ingredients,section.about{
     padding-bottom: 30px;
     margin-bottom: 20px;
     background-color: #f6f4f4;
-}
-
-section.about{
-    padding-bottom: 30px;
-    margin-bottom: 20px;
-    background-color: #f6f4f4;
-
-}
-
-.step h3 {
-    color: #fff;
-    padding: 7px;
-    font-weight: 600;
-    background-color: #db4d3f;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 section.step {
@@ -425,21 +362,18 @@ section.step {
     background-color: #f6f4f4;
 }
 
-form input {
-    width: 100%;
-}
-
-form textarea {
+form textarea,form input  {
     width: 100%;
 }
 
 input {
-    border: 0 none;
+    border: 1px solid;
+    border-color: #F9F5F5;
 }
 
 textarea, input {
     border-color: #F9F5F5;
-    border-radius: 2px;
+    border-radius: 3px;
     padding: 10px;
 }
 
@@ -453,18 +387,12 @@ form {
     background-color: #f9f9f9;
 }
 
-span.cancel{
+button span{
     font-size: 16px;
     font-weight: 600;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
-span.save2{
-    font-size: 16px;
-    font-weight: 600;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-
-}
 
 @media screen and (min-width: 250px) and (max-width: 499px){
     ul{
